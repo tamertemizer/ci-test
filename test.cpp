@@ -13,5 +13,5 @@ TEST_CASE("Additions are computed", "[Addition]") {
 	REQUIRE(addition(1, 2) == 3);
 	REQUIRE(addition(-1, 1) == 0);
 	REQUIRE(addition(-3, -5) == -8);
-	REQUIRE(addition(10, 10) == 20);
+	REQUIRE(addition(10, 10) == 15);
 }
