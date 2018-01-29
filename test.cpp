@@ -6,7 +6,7 @@ TEST_CASE("Multiplications are computed", "[Multiply]") {
 	REQUIRE(multiply(1, 2) == 2);
 	REQUIRE(multiply(-1, 3) == -3);
 	REQUIRE(multiply(0, 5) == 0);
-	REQUIRE(multiply(-1, -4) == 4);
+	REQUIRE(multiply(-1, -4) == 3);
 }
 
 TEST_CASE("Additions are computed", "[Addition]") {
